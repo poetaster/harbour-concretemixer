@@ -1,5 +1,5 @@
 # harbour-concretemixer
-An engineering app for your construction site. Calculate the right amount of cement, sand, gravel and water for any concrete project and desired strength.
+Sailfish OS  engineering app for your construction site. Calculate the right amount of cement, sand, gravel and water for any concrete project and desired strength.
 
 ## Contribute
 
@@ -13,5 +13,5 @@ Tobias wrote ConcreteMixer and poetaster is developing and maintaining it in fut
 
 2021 - Mark Washeim <blueprint@poetaster.de>
 
-
+Can be installed from here: https://openrepos.net/content/planetosstore/concrete-mixer
 
