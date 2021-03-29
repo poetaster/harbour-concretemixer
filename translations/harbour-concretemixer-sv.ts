@@ -100,7 +100,7 @@
     </message>
     <message>
         <source>area load [kN/m²]</source>
-        <translation>Arealast [kN/m²]</translation>
+        <translation>Områdeslast [kN/m²]</translation>
     </message>
     <message>
         <source>CONCRETE MIXER</source>
