@@ -1,10 +1,10 @@
 Name: harbour-concretemixer
 Summary: ConcreteMixer
 Version: 0.3
-Release: 1
+Release: 2
 # The contents of the Group field should be one of the groups listed here:
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
-Group: Qt/Qt
+Group: Applications/Engineering
 URL: https://github.com/poetaster/harbour-concretemixer
 License: GPLv3
 # This must be generated before uploading a package to a remote build service.

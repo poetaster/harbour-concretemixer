@@ -14,8 +14,8 @@ Name:       harbour-concretemixer
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    ConcreteMixer
 Version:    0.3
-Release:    1
-Group:      Qt/Qt
+Release:    2
+Group:      Applications/Engineering
 License:    GPLv3
 URL:        https://github.com/poetaster/harbour-concretemixer
 Source0:    %{name}-%{version}.tar.bz2
