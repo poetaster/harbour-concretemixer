@@ -32,7 +32,6 @@ Concrete Mixer app
 
 %if "%{?vendor}" == "chum"
 Name: ConcreteMixer
-Package: harbour-concretemixer
 Category: Applications/Engineering
 Repo: https://github.com/poetaster/harbour-concretemixer
 Icon: https://raw.githubusercontent.com/poetaster/harbour-concretemixer/master/icons/172x172/harbour-concretemixer.png
