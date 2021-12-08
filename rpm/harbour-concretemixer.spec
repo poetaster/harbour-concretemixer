@@ -13,8 +13,8 @@ Name:       harbour-concretemixer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    ConcreteMixer
-Version:    0.3
-Release:    2
+Version:    0.4
+Release:    1
 Group:      Applications/Engineering
 License:    GPLv3
 URL:        https://github.com/poetaster/harbour-concretemixer
@@ -30,6 +30,20 @@ BuildRequires:  desktop-file-utils
 %description
 Concrete Mixer app
 
+%if "%{?vendor}" == "chum"
+Name: ConcreteMixer
+Package: harbour-concretemixer
+Category: Applications/Engineering
+Repo: https://github.com/poetaster/harbour-concretemixer
+Icon: https://raw.githubusercontent.com/poetaster/harbour-concretemixer/master/icons/172x172/harbour-concretemixer.png
+Screenshots:
+- https://github.com/piggz/harbour-advanced-camera/raw/metadata/screenshots/screenshot1.png
+- https://github.com/piggz/harbour-advanced-camera/raw/metadata/screenshots/screenshot2.png
+- https://github.com/piggz/harbour-advanced-camera/raw/metadata/screenshots/screenshot3.png
+Forum: https://github.com/piggz/harbour-advanced-camera/discussions
+Issues: https://github.com/piggz/harbour-advanced-camera/issues
+Donation: https://www.paypal.me/piggz
+%endif
 
 %prep
 %setup -q -n %{name}-%{version}

@@ -12,9 +12,7 @@
 # The name of your application
 TARGET = harbour-concretemixer
 
-CONFIG += sailfishapp
-
-SOURCES += src/harbour-concretemixer.cpp
+CONFIG += sailfishapp_qml
 
 DISTFILES += qml/harbour-concretemixer.qml \
     qml/cover/CoverPage.qml \
@@ -22,7 +20,6 @@ DISTFILES += qml/harbour-concretemixer.qml \
     rpm/harbour-concretemixer.changes.in \
     rpm/harbour-concretemixer.changes.run.in \
     rpm/harbour-concretemixer.spec \
-    rpm/harbour-concretemixer.yaml \
     translations/*.ts \
     harbour-concretemixer.desktop \
     qml/pages/Settings.qml
