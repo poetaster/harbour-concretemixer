@@ -12,7 +12,9 @@
 # The name of your application
 TARGET = harbour-concretemixer
 
-CONFIG += sailfishapp_qml
+CONFIG += sailfishapp
+
+SOURCES += src/harbour-concretemixer.cpp
 
 DISTFILES += qml/harbour-concretemixer.qml \
     qml/cover/CoverPage.qml \
