@@ -13,7 +13,7 @@ Name:       harbour-concretemixer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    ConcreteMixer
-Version:    0.4
+Version:    0.5
 Release:    1
 Group:      Applications/Engineering
 License:    GPLv3
@@ -31,7 +31,7 @@ BuildRequires:  desktop-file-utils
 Concrete Mixer app
 
 %if "%{?vendor}" == "chum"
-Name: ConcreteMixer
+name: ConcreteMixer
 Category: Applications/Engineering
 Repo: https://github.com/poetaster/harbour-concretemixer
 Icon: https://raw.githubusercontent.com/poetaster/harbour-concretemixer/master/icons/172x172/harbour-concretemixer.png
