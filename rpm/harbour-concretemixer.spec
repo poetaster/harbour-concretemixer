@@ -45,8 +45,8 @@ Screenshots:
  - https://raw.githubusercontent.com/poetaster/harbour-concretemixer/main/screenshot-3.png
  - https://raw.githubusercontent.com/poetaster/harbour-concretemixer/main/screenshot-4.png
 Url:
- - Homepage: https://github.com/poetaster/harbour-concretemixer
- - Donation: https://www.paypal.me/poetasterFOSS
+  Homepage: https://github.com/poetaster/harbour-concretemixer
+  Donation: https://www.paypal.me/poetasterFOSS
 %endif
 
 %prep
