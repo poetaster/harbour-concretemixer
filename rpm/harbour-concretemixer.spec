@@ -31,7 +31,6 @@ Concrete Mixer app
 
 %if "%{?vendor}" == "chum"
 PackageName: ConcreteMixer
-
 Type: desktop-application
 Categories:
  - Utility
