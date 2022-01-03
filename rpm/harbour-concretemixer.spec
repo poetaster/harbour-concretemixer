@@ -13,8 +13,8 @@ Name:       harbour-concretemixer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    ConcreteMixer
-Version:    0.5
-Release:    3
+Version:    0.6
+Release:    1
 Group:      Applications/Engineering
 License:    GPLv3
 URL:        https://github.com/poetaster/harbour-concretemixer
@@ -30,18 +30,24 @@ BuildRequires:  desktop-file-utils
 Concrete Mixer app
 
 %if "%{?vendor}" == "chum"
-Packagename: ConcreteMixer
-Category: Applications/Engineering
-Repo: https://github.com/poetaster/harbour-concretemixer
+PackageName: ConcreteMixer
+
+Type: desktop-application
+Categories:
+ - Utility
+ - Construction
+DeveloperName: Mark Washeim
+Custom:
+ - Repo: https://github.com/poetaster/harbour-concretemixer
 Icon: https://raw.githubusercontent.com/poetaster/harbour-concretemixer/master/icons/172x172/harbour-concretemixer.png
 Screenshots:
-- https://raw.githubusercontent.com/poetaster/harbour-concretemixer/main/screenshot-1.png
-- https://raw.githubusercontent.com/poetaster/harbour-concretemixer/main/screenshot-2.png
-- https://raw.githubusercontent.com/poetaster/harbour-concretemixer/main/screenshot-3.png
-- https://raw.githubusercontent.com/poetaster/harbour-concretemixer/main/screenshot-4.png
-Forum: https://github.com/poetaster/harbour-concretemixer/discussions
-Issues: https://github.com/poetaster/harbour-concretemixer/issues
-Donation: https://www.paypal.me/poetasterFOSS
+ - https://raw.githubusercontent.com/poetaster/harbour-concretemixer/main/screenshot-1.png
+ - https://raw.githubusercontent.com/poetaster/harbour-concretemixer/main/screenshot-2.png
+ - https://raw.githubusercontent.com/poetaster/harbour-concretemixer/main/screenshot-3.png
+ - https://raw.githubusercontent.com/poetaster/harbour-concretemixer/main/screenshot-4.png
+Url:
+ - Homepage: https://github.com/poetaster/harbour-concretemixer
+ - Donation: https://www.paypal.me/poetasterFOSS
 %endif
 
 %prep
