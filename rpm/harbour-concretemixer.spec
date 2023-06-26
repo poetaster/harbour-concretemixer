@@ -6,6 +6,7 @@
 Name:       harbour-concretemixer
 
 # >> macros
+%define _binary_payload w2.xzdio
 # << macros
 
 %{!?qtc_qmake:%define qtc_qmake %qmake}
@@ -13,13 +14,15 @@ Name:       harbour-concretemixer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    ConcreteMixer
-Version:    0.6.2
+Version:    0.6.3
 Release:    1
 Group:      Applications/Engineering
 License:    GPLv3
+BuildArch:  noarch
 URL:        https://github.com/poetaster/harbour-concretemixer
 Source0:    %{name}-%{version}.tar.bz2
-Requires:   sailfishsilica-qt5 >= 0.10.9
+Requires:       sailfishsilica-qt5 >= 0.10.9
+Requires:       libsailfishapp-launcher
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -82,7 +85,6 @@ desktop-file-install --delete-original       \
 
 %files
 %defattr(-,root,root,-)
-%{_bindir}
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.png

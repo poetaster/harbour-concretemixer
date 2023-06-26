@@ -12,9 +12,7 @@
 # The name of your application
 TARGET = harbour-concretemixer
 
-CONFIG += sailfishapp
-
-SOURCES += src/harbour-concretemixer.cpp
+CONFIG += sailfishapp_qml
 
 DISTFILES += qml/harbour-concretemixer.qml \
     qml/cover/CoverPage.qml \
@@ -38,4 +36,5 @@ CONFIG += sailfishapp_i18n
 # modify the localized app name in the the .desktop file.
 TRANSLATIONS += translations/harbour-concretemixer-de.ts \
                 translations/harbour-concretemixer-sv.ts  \
+                translations/harbour-concretemixer-sk.ts  \
                 translations/harbour-concretemixer-hu.ts \
